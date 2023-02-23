@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="home.css">
+  
+   
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/d666613e2a.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script>
+      
+
+        function Menudisplay(){
+          const button= document.getElementById('dropbtn');
+          const list= document.getElementById("dropdown-content");
+        if(list.style.display == "block"){
+          list.style.display = "none";
+        }
+        else{
+          list.style.display = "block";
+        }
+        }
+
+        function gotoBuybtn(){
+          let  btn= document.getElementById('dropbtn');
+            btn.click();
+            }
+        function gotoSell(){
+          let sell= document.getElementById('two');
+          sell.click();
+        }
+
+      // list.style.display="none";
+      // button.addEventListener("click",(event) =>{
+        
+      //   if(list.style.display == "none"){
+      //     list.style.display = "block";
+      //   }
+      //   else{
+      //     list.style.display = "none";
+      //   }
+      // })
+  
+  
+      </script>
+
+</head>
+<body>
+  <nav class="navbar ">
+    
+    <ul class="nav-list">
+      <div class="logo"><img src="logo.png"height="100px" alt="logo"></div>     
+      <li class="active"><a href="home.html"><i class="fa-solid fa-house"></i>Home</a></li>
+      <div class="dropdown">
+      <button id="dropbtn" onclick="Menudisplay()">Buy
+        <i class="fa-solid fa-cart-shopping"></i>
+      </button>
+
+      <ul id ="dropdown-content">
+       <li> <a href="#">10 th std</a></li>
+       <li><a href="#">11 th & 12 th std</a></li>
+         <li> <a href="#">JEE </a></li>
+          <li><a href="#">Neet</a></li>
+         <li> <a href="#">Engineering</a></li>
+        </ul> 
+
+        <!-- <div class="idk">  
+          <button class="submenu">Engineering
+          </button>
+          <div class="subsubmenu">
+              <a href="#">Computer</a>
+              <a href="#">Electronics</a>
+              <a href="#">Mechanical</a>
+            </div>  -->
+      </div>
+      </div>
+    </div>
+      <!-- <li class="item"><a href="#Buy"><i class="fa-solid fa-cart-shopping"></i>Buy </a></li> -->
+      <li class="item"><a href="Sell.html"><i class="fa-solid fa-check"></i>Sell</a></li>
+      <li class="item"><a href="aboutus.html"><i class="fa-solid fa-address-card"></i></i>About us </a>
+      
+      <!-- <li class="item"><a href="#login">login </a></li> -->
+      
+    </ul>
+    <div class="rightNav">
+      <!-- <input type="text" name="search" id="search">
+      <button class="btn btn-sm">Search</button> -->
+      <ul class="nav-list2">
+     <li class="item"> <a href="login.html"><i class="fa-solid fa-right-to-bracket"></i></i>login </a></li>
+     <li class="item"> <a href="#MyAccount"><i class="fa-solid fa-user"></i></i>My Account </a></li>
+    </ul>
+    </div>
+    
+  </nav>
+  <section class="background">
+   
+     <div id="background">
+    <img src="bk 1.jpg" alt=" bg" width="100%" height="600px">
+  </div> 
+
+
+   
+    <div class="box-main">
+      <div class="firstHalf">
+        <p class="text-big">Your door to knowledge </p>
+        <p class="text-small">A community which aspires to be the best </p>
+      </div>
+      
+      <div class="secondHalf">
+        
+      </div>
+      
+      
+      
+    </div>
+    <section class="lm">
+      <div class="ln">
+      <button id="one" onclick="gotoBuybtn()"> Buy </button>
+      <p id="ad1">Get your first book free</p>
+    </div>
+    <div class="lo">
+      <a href="Sell.html">
+       <button id="two" > Sell</button>
+      </a>
+      <p id="ad2">Get rewards for selling and sharing</p>
+
+    </div>
+    </section>
+    
+    <!-- <a href="" target="_blank">
+      <img src="img/bookkkkkkk.png" width=200px alt="Tutorial">
+    </a>
+     -->
+  </section>
+  
+ 
+    <!-- <div class="container">
+     <div id="hc">
+       <h>Categories</h> </div>
+      <div class="categories">
+        <div class="items">
+         <a href="" target="_blank"><img src="img/c1.png"width=300px height="200px"></a>
+        </div>
+        <div class="items ">
+          <a href="" target="_blank"><img src="img/c2.png"width=300px height="200px"></a>   
+        </div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+
+      </div>
+    </div> -->
+    <div class="text">
+      <div class="outervoid"><p>
+        
+
+Are you a college student and are upset with the increasing number of old used books after each new semester?</p> 
+<p>OR</p>
+Are you a +2, JEE/NEET or an engineering student who want to buy second-hand books to save money 
+but also want to save time from going to the store and buying them?
+<p>If yes, then Bookart is just made for you!</p>
+<p>Selling and buying books on Bookart is a win-win situation for both buyer and seller.</p> How? Let's see - 
+As a seller, 
+you can get rid of the books that you don't need in exchange of reward points and sell it to another person. 
+And being a buyer, you can buy your desired book(in good condition) as well as reward points. AND 
+you get your first book for free as well as reward points!
+<p>All of this AT YOUR DOORSTEP!</p>
+
+
+<p> </p>
+<p> </p>
+<p> </p>
+</div>
+<!-- <img src="img/Thinkingemoji.jpg" height="150px" width="150px"alt="Thinking emoji" > -->
+<div class="Void">
+  <div class="firstW">
+
+<p>But what is the concept of reward points really? </p>
+<p>Rewards are the substitutes of money. You can sell your old book for reward points and they will also help you buy 
+any other book. </p>
+<p>In fact, you get rewards for buying a book too!</p>
+</div>
+<div class="secondW">
+  <lottie-player src="https://assets4.lottiefiles.com/packages/lf20_vvx2gjpt.json"  background="transparent"  speed="1"  style="width: 150px; height: 150px;"  loop autoplay></lottie-player>
+
+
+</div>
+</div>
+
+      </p>
+   
+  </div>
+</body>
+</html>
