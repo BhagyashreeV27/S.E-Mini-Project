@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>PopUp</title>
+        <link rel="stylesheet" href="popup.css">
+        <link rel="icon" href="logo.png">
+
+    </head>
+    <body>
+        <div class="container">
+            <button type="submit" class="btn" onclick="openPopup()">Click me!</button>
+        </div>
+        <div class="popup" id="popup">
+            <img src="logo.png">
+            <h2>Congratulations!</h2>
+            <p>You have earned 500 reward points!</p> 
+            <a href="login.html"><button type="button" onclick="closePopup()">OK</button></a>
+        </div></div>
+        <script>
+            let popup=document.getElementById("popup");
+            function openPopup(){
+                popup.classList.add("open-popup");
+            }
+            function closePopup(){
+                popup.classList.remove("open-popup");
+            }
+        </script>
+    </body>
+</html>
